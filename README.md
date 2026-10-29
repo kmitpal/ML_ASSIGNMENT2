@@ -30,7 +30,6 @@ The same stratified 80/20 train-test split and the same input dataset are used f
 - **MCC:** Matthews correlation coefficient, a balanced measure based on TP, TN, FP, and FN.
 
 ## 5. Model comparison table
-Run `python train_models.py` to generate actual results in `training_metrics.csv`. Copy those values into the report/PDF. Do not enter estimated values.
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |---|---:|---:|---:|---:|---:|---:|
@@ -41,7 +40,6 @@ Run `python train_models.py` to generate actual results in `training_metrics.csv
 | Support Vector Machine | 0.8505 | 0.9077 | 0.4266 | 0.8072 | 0.5582 | 0.5136 |
 
 ## 6. Observations on model performance
-Complete this section after reviewing `training_metrics.csv`:
 - **Logistic Regression:** Logistic Regression provides strong class discrimination and good recall, making it a useful baseline for this dataset.
 - **Decision Tree:** The Decision Tree performs reasonably well, but its ability to model nonlinear patterns does not translate into the best overall evaluation scores in this experiment.
 - **KNN:** KNN achieves the highest accuracy, but its low recall and F1-score make it less effective when identifying customers likely to subscribe is important.
