@@ -63,13 +63,6 @@ streamlit run app.py
 4. Deploy. Open the live URL and confirm the interactive app loads.
 5. Test with the included `test_data.csv` and take a screenshot of the assignment execution on BITS Virtual Lab.
 
-## 9. Required submission PDF
-Include, in the order specified by your assignment:
-1. GitHub repository link.
-2. Live Streamlit app link.
-3. Screenshot of assignment execution on BITS Virtual Lab.
-4. This README content, including the completed comparison table and observations.
-
-## 10. Notes
+## 9. Notes
 - The app requires labeled test data with all 16 input columns and `y`. The app evaluates saved models; it does not retrain models on uploaded test data.
 - `duration` is included because it is part of the official dataset, but UCI notes it is not known before the call ends. For real pre-call prediction, consider excluding it and retraining all models.
